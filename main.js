@@ -10,7 +10,7 @@ const { urlencoded, json } = body_parser_pkg
 const api = express()
 const server = createServer(api)
 
-const PORT = 1711
+const PORT = 80
 
 const manager = GameManager()
 const gameConnection = Connection(server, '/GAME/', manager)
